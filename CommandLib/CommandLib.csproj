@@ -50,7 +50,7 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Xml" />
     <Reference Include="WebCam_Capture">
-      <HintPath>..\packages\WebcomCapture\WebCam_Capture.dll</HintPath>
+      <HintPath>..\CleaningRobot\Libs\WebCam_Capture.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
   </ItemGroup>

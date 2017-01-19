@@ -38,11 +38,12 @@
     <ApplicationIcon>logo.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="AviFile">
-      <HintPath>..\packages\AviFile\AviFile.dll</HintPath>
+    <Reference Include="AviFile, Version=1.0.4508.35241, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\AviFile.dll</HintPath>
     </Reference>
     <Reference Include="CommandEngine">
-      <HintPath>..\CommandLib\Libs\CommandEngine.dll</HintPath>
+      <HintPath>Libs\CommandEngine.dll</HintPath>
     </Reference>
     <Reference Include="MahApps.Metro, Version=1.3.0.0, Culture=neutral, PublicKeyToken=f4fb5a3c4d1e5b4f, processorArchitecture=MSIL">
       <HintPath>..\packages\MahApps.Metro.1.3.0\lib\net45\MahApps.Metro.dll</HintPath>
@@ -93,8 +94,9 @@
     <Reference Include="System.Xaml">
       <RequiredTargetFramework>4.0</RequiredTargetFramework>
     </Reference>
-    <Reference Include="WebCam_Capture">
-      <HintPath>..\packages\WebcomCapture\WebCam_Capture.dll</HintPath>
+    <Reference Include="WebCam_Capture, Version=1.0.2395.24959, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Libs\WebCam_Capture.dll</HintPath>
     </Reference>
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
@@ -178,6 +180,10 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="logo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Libs\AviFile.dll" />
+    <Content Include="Libs\WebCam_Capture.dll" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
